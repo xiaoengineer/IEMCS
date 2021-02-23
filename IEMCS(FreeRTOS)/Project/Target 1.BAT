@@ -1,0 +1,30 @@
+SET PATH=D:\Keil_v5\ARM\ARMCLANG\Bin;D:\Programs\Python\Python39\Scripts\;D:\Programs\Python\Python39\;D:\Program Files (x86)\VMware\VMware Workstation\bin\;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\dotnet\;d:\Program Files\Git\cmd;D:\Program Files\nodejs\;C:\ProgramData\chocolatey\bin;D:\Program Files (x86)\NetSarang\Xshell 7\;D:\Program Files (x86)\NetSarang\Xftp 7\;C:\Users\Õıª€‘∆\AppData\Local\Microsoft\WindowsApps;;C:\Users\Õıª€‘∆\.dotnet\tools;D:\texlive\2020\bin\win32;D:\Programs\Microsoft VS Code\bin;C:\Users\Õıª€‘∆\AppData\Roaming\npm
+SET CPU_TYPE=STM32F103C8
+SET CPU_VENDOR=STMicroelectronics
+SET UV2_TARGET=Target 1
+SET CPU_CLOCK=0x00B71B00
+"D:\Keil_v5\ARM\ARMCLANG\Bin\ArmClang.exe" @".\objects\startup_stm32f103xb._ac"
+"D:\Keil_v5\ARM\ARMCLANG\Bin\ArmClang.exe" @".\objects\system_stm32f1xx.__i"
+"D:\Keil_v5\ARM\ARMCLANG\Bin\ArmClang.exe" @".\objects\stm32f1xx_hal.__i"
+"D:\Keil_v5\ARM\ARMCLANG\Bin\ArmClang.exe" @".\objects\stm32f1xx_hal_adc.__i"
+"D:\Keil_v5\ARM\ARMCLANG\Bin\ArmClang.exe" @".\objects\stm32f1xx_hal_adc_ex.__i"
+"D:\Keil_v5\ARM\ARMCLANG\Bin\ArmClang.exe" @".\objects\stm32f1xx_hal_cortex.__i"
+"D:\Keil_v5\ARM\ARMCLANG\Bin\ArmClang.exe" @".\objects\stm32f1xx_hal_dma.__i"
+"D:\Keil_v5\ARM\ARMCLANG\Bin\ArmClang.exe" @".\objects\stm32f1xx_hal_exti.__i"
+"D:\Keil_v5\ARM\ARMCLANG\Bin\ArmClang.exe" @".\objects\stm32f1xx_hal_flash.__i"
+"D:\Keil_v5\ARM\ARMCLANG\Bin\ArmClang.exe" @".\objects\stm32f1xx_hal_flash_ex.__i"
+"D:\Keil_v5\ARM\ARMCLANG\Bin\ArmClang.exe" @".\objects\stm32f1xx_hal_gpio.__i"
+"D:\Keil_v5\ARM\ARMCLANG\Bin\ArmClang.exe" @".\objects\stm32f1xx_hal_gpio_ex.__i"
+"D:\Keil_v5\ARM\ARMCLANG\Bin\ArmClang.exe" @".\objects\stm32f1xx_hal_i2c.__i"
+"D:\Keil_v5\ARM\ARMCLANG\Bin\ArmClang.exe" @".\objects\stm32f1xx_hal_pwr.__i"
+"D:\Keil_v5\ARM\ARMCLANG\Bin\ArmClang.exe" @".\objects\stm32f1xx_hal_rcc.__i"
+"D:\Keil_v5\ARM\ARMCLANG\Bin\ArmClang.exe" @".\objects\stm32f1xx_hal_rcc_ex.__i"
+"D:\Keil_v5\ARM\ARMCLANG\Bin\ArmClang.exe" @".\objects\stm32f1xx_hal_tim.__i"
+"D:\Keil_v5\ARM\ARMCLANG\Bin\ArmClang.exe" @".\objects\stm32f1xx_hal_tim_ex.__i"
+"D:\Keil_v5\ARM\ARMCLANG\Bin\ArmClang.exe" @".\objects\stm32f1xx_hal_uart.__i"
+"D:\Keil_v5\ARM\ARMCLANG\Bin\ArmClang.exe" @".\objects\stm32f1xx_hal_msp.__i"
+"D:\Keil_v5\ARM\ARMCLANG\Bin\ArmClang.exe" @".\objects\stm32f1xx_it.__i"
+"D:\Keil_v5\ARM\ARMCLANG\Bin\ArmClang.exe" @".\objects\main.__i"
+"D:\Keil_v5\ARM\ARMCLANG\Bin\ArmClang.exe" @".\objects\led.__i"
+"D:\Keil_v5\ARM\ARMCLANG\Bin\ArmLink" --Via ".\Objects\IECS.lnp"
+"D:\Keil_v5\ARM\ARMCLANG\Bin\fromelf.exe" ".\Objects\IECS.axf" --i32combined --output ".\Objects\IECS.hex"

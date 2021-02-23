@@ -1,0 +1,64 @@
+
+[2021/2/18 14:18:2 GMT+0800] : launched
+[Hidden] : Command failed: null\bin\arm-none-eabi-gcc.exe -E -dM - <nul
+ϵͳ�Ҳ���ָ����·����
+
+Error: Command failed: null\bin\arm-none-eabi-gcc.exe -E -dM - <nul
+ϵͳ�Ҳ���ָ����·����
+
+	at checkExecSyncError (child_process.js:639:11)
+	at Object.execSync (child_process.js:675:15)
+	at Object.execSync (electron/js2c/asar_bundle.js:5:12113)
+	at y.getMacroList (c:\Users\王慧云\.vscode\extensions\cl.eide-2.1.1\dist\extension.js:1:75552)
+	at new y (c:\Users\王慧云\.vscode\extensions\cl.eide-2.1.1\dist\extension.js:1:74951)
+	at new f (c:\Users\王慧云\.vscode\extensions\cl.eide-2.1.1\dist\extension.js:1:65199)
+	at Function.getInstance (c:\Users\王慧云\.vscode\extensions\cl.eide-2.1.1\dist\extension.js:1:65332)
+	at F.loadToolchain (c:\Users\王慧云\.vscode\extensions\cl.eide-2.1.1\dist\extension.js:1:105729)
+	at F.Load (c:\Users\王慧云\.vscode\extensions\cl.eide-2.1.1\dist\extension.js:1:100061)
+	at P._OpenProject (c:\Users\王慧云\.vscode\extensions\cl.eide-2.1.1\dist\extension.js:1:346413)
+	at EventEmitter.<anonymous> (c:\Users\王慧云\.vscode\extensions\cl.eide-2.1.1\dist\extension.js:1:337707)
+	at Object.onceWrapper (events.js:422:26)
+	at EventEmitter.emit (events.js:315:20)
+	at Function.emit (c:\Users\王慧云\.vscode\extensions\cl.eide-2.1.1\dist\extension.js:1:4466)
+	at EventEmitter.<anonymous> (c:\Users\王慧云\.vscode\extensions\cl.eide-2.1.1\dist\extension.js:1:186269)
+	at EventEmitter.emit (events.js:315:20)
+	at Function.emit (c:\Users\王慧云\.vscode\extensions\cl.eide-2.1.1\dist\extension.js:1:4466)
+	at P.LoadWorkspaceProject (c:\Users\王慧云\.vscode\extensions\cl.eide-2.1.1\dist\extension.js:1:337756)
+	at new P (c:\Users\王慧云\.vscode\extensions\cl.eide-2.1.1\dist\extension.js:1:336218)
+	at new t.ProjectExplorer (c:\Users\王慧云\.vscode\extensions\cl.eide-2.1.1\dist\extension.js:1:353536)
+	at t.activate (c:\Users\王慧云\.vscode\extensions\cl.eide-2.1.1\dist\extension.js:1:189802)
+	at Function._callActivateOptional (d:\Programs\Microsoft VS Code\resources\app\out\vs\workbench\services\extensions\node\extensionHostProcess.js:90:13728)
+	at Function._callActivate (d:\Programs\Microsoft VS Code\resources\app\out\vs\workbench\services\extensions\node\extensionHostProcess.js:90:13405)
+	at d:\Programs\Microsoft VS Code\resources\app\out\vs\workbench\services\extensions\node\extensionHostProcess.js:90:11743
+	at processTicksAndRejections (internal/process/task_queues.js:97:5)
+	at async Promise.all (index 0)
+[Hidden] : Command failed: null\bin\arm-none-eabi-gcc.exe -xc++ -E -v - <nul 2>&1
+Error: Command failed: null\bin\arm-none-eabi-gcc.exe -xc++ -E -v - <nul 2>&1
+	at checkExecSyncError (child_process.js:639:11)
+	at Object.execSync (child_process.js:675:15)
+	at Object.execSync (electron/js2c/asar_bundle.js:5:12113)
+	at y.getIncludeList (c:\Users\王慧云\.vscode\extensions\cl.eide-2.1.1\dist\extension.js:1:75134)
+	at new y (c:\Users\王慧云\.vscode\extensions\cl.eide-2.1.1\dist\extension.js:1:74991)
+	at new f (c:\Users\王慧云\.vscode\extensions\cl.eide-2.1.1\dist\extension.js:1:65199)
+	at Function.getInstance (c:\Users\王慧云\.vscode\extensions\cl.eide-2.1.1\dist\extension.js:1:65332)
+	at F.loadToolchain (c:\Users\王慧云\.vscode\extensions\cl.eide-2.1.1\dist\extension.js:1:105729)
+	at F.Load (c:\Users\王慧云\.vscode\extensions\cl.eide-2.1.1\dist\extension.js:1:100061)
+	at P._OpenProject (c:\Users\王慧云\.vscode\extensions\cl.eide-2.1.1\dist\extension.js:1:346413)
+	at EventEmitter.<anonymous> (c:\Users\王慧云\.vscode\extensions\cl.eide-2.1.1\dist\extension.js:1:337707)
+	at Object.onceWrapper (events.js:422:26)
+	at EventEmitter.emit (events.js:315:20)
+	at Function.emit (c:\Users\王慧云\.vscode\extensions\cl.eide-2.1.1\dist\extension.js:1:4466)
+	at EventEmitter.<anonymous> (c:\Users\王慧云\.vscode\extensions\cl.eide-2.1.1\dist\extension.js:1:186269)
+	at EventEmitter.emit (events.js:315:20)
+	at Function.emit (c:\Users\王慧云\.vscode\extensions\cl.eide-2.1.1\dist\extension.js:1:4466)
+	at P.LoadWorkspaceProject (c:\Users\王慧云\.vscode\extensions\cl.eide-2.1.1\dist\extension.js:1:337756)
+	at new P (c:\Users\王慧云\.vscode\extensions\cl.eide-2.1.1\dist\extension.js:1:336218)
+	at new t.ProjectExplorer (c:\Users\王慧云\.vscode\extensions\cl.eide-2.1.1\dist\extension.js:1:353536)
+	at t.activate (c:\Users\王慧云\.vscode\extensions\cl.eide-2.1.1\dist\extension.js:1:189802)
+	at Function._callActivateOptional (d:\Programs\Microsoft VS Code\resources\app\out\vs\workbench\services\extensions\node\extensionHostProcess.js:90:13728)
+	at Function._callActivate (d:\Programs\Microsoft VS Code\resources\app\out\vs\workbench\services\extensions\node\extensionHostProcess.js:90:13405)
+	at d:\Programs\Microsoft VS Code\resources\app\out\vs\workbench\services\extensions\node\extensionHostProcess.js:90:11743
+	at processTicksAndRejections (internal/process/task_queues.js:97:5)
+	at async Promise.all (index 0)
+
+
