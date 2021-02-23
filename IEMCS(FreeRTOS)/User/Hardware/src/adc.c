@@ -21,7 +21,7 @@
 #include "adc.h"
 
 /* USER CODE BEGIN 0 */
-//#define CHANNEL4
+#define CHANNEL4 //是否选择外接adc信号
 /* USER CODE END 0 */
 
 ADC_HandleTypeDef hadc1;
@@ -110,7 +110,11 @@ void HAL_ADC_MspDeInit(ADC_HandleTypeDef* adcHandle)
         /**ADC1 GPIO Configuration
         PA4     ------> ADC1_IN4
         */
-        HAL_GPIO_DeInit(GPIOA, GPIO_PIN_1);
+		#ifdef CHANNEL4
+        HAL_GPIO_DeInit(GPIOA, GPIO_PIN_4);
+		#else
+		HAL_GPIO_DeInit(GPIOA, GPIO_PIN_1);
+		#endif
 
         /* USER CODE BEGIN ADC1_MspDeInit 1 */
 
